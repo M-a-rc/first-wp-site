@@ -10,9 +10,19 @@
 </head>
 <body>
 
-<div class="navbar px-4">
-  <a href="/"class="btn btn-primary">Home</a>
-  <a href="/"class="btn btn-primary">Posts</a>
+<div class="navbar">
+  <div class="container">
+    <?php
+      wp_nav_menu(
+        array(
+          'menu' => 'primary',
+          'container' => '',
+          'theme_location' => 'primary',
+          'items_wrap' => '<ul id="" class="d-flex p-0">%3$s</ul>'
+        )
+      );
+    ?>
+  </div>
 </div>
 <div class="container">
   <h1 class="mt-2"><?php the_title() ?></h1>

@@ -13,3 +13,8 @@ h1{
 .navbar{
   background-color: cornflowerblue;
 }
+
+.no-deco > a{
+  text-decoration: none;
+  color: black;
+}
