@@ -2,9 +2,20 @@
   get_header()
 ?>
 
-<h1>Hello world</h1>
-<div class="btn btn-primary">click</div>
-</body>
+<article>
+
+  <?php
+
+    if(have_posts()){
+      while(have_posts()){
+        the_post();
+        the_content();
+      }
+    }
+
+  ?>
+
+</article>
 
 <?php
   get_footer()
