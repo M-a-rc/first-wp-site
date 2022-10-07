@@ -1,0 +1,18 @@
+.nav{
+  padding-top: 20px;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.btn-nav > a {
+  text-decoration: none;
+  color: #13294C
+}
+
+.btn-nav > a:hover{
+  color: #EBD6AE;
+}
+
+.nav > .current-menu-item > a{
+  color: #EBD6AE ;
+}

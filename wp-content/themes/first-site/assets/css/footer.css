@@ -1,0 +1,34 @@
+.footer-blue{
+  background-color: #12294C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 400px;
+}
+.footer-content{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-content > i{
+  color: #EBD6AE;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-content > p {
+  font-size: 10px;
+}
+
+.footer-content > #retrouvez-nous {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#footer-map{
+  position: absolute;
+  top: 200px;
+}

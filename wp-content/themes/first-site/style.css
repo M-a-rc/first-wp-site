@@ -10,11 +10,12 @@ h1{
   color: red;
 }
 
-.navbar{
-  background-color: cornflowerblue;
-}
-
 .no-deco > a{
   text-decoration: none;
-  color: black;
+}
+
+/* Overright bootstrap */
+
+.btn{
+  background-color: red;
 }

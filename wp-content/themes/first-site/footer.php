@@ -1,5 +1,19 @@
 </div>
-<?php
-  wp_footer()
-?>
+  <div class="footer-blue">
+    <div class="footer-content">
+      <i class="fa-solid fa-location-dot"></i>
+      <p id="retrouvez-nous">Retrouvez-nous</p>
+      <p>Nous vous retrouvons dans notre boutique située en plein coeur de La Rochelle,<br> au 23 rue St-Yon 17000 La Rochelle</p>
+    </div>
+    <div id="footer-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.4786968875998!2d-1.1515952308466686!3d46.16072092365476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480153a8c95831d5%3A0xd367ebd0e297b124!2s23%20Rue%20Saint-Yon%2C%2017000%20La%20Rochelle!5e0!3m2!1sfr!2sfr!4v1665160512736!5m2!1sfr!2sfr" width="700" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <?php
+     if(function_exists('the_custom_logo')) {
+      $custom_logo_id = get_theme_mod('custom_logo');
+      $logo = wp_get_attachment_image_src($custom_logo_id);
+      }
+    ?>
+    <img src="<?php echo $logo[0] ?>" alt="Logo">
+  </div>
 </html>
