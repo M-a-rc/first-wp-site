@@ -37,6 +37,29 @@
   top: 200px;
 }
 
+.footer-lower-part > p {
+  color: #12294C;
+  font-size: 10px;
+}
+
+#footer-map{
+  height: 30vh;
+  aspect-ratio: 5 / 2;
+}
+
+.map-and-square{
+  position: relative;
+}
+
+.golden-square{
+  height: 10vh;
+  aspect-ratio: 1;
+  border: #EBD6AE 3px solid;
+  position: absolute;
+  top: -5vh;
+  right: -5vh;
+}
+
 #footer-logo{
   margin-top: 20px;
   height: 40px;
@@ -46,6 +69,9 @@
 .footer-list-item{
   color: #12294C;
   list-style: none;
-  padding: 10px 30px;
+  padding: 20px auto;
   font-size: 10px;
+  width: 100px;
+  text-align: center;
+  margin: 10px;
 }

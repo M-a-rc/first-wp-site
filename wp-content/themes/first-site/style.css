@@ -6,18 +6,14 @@ Description: Just to try it out
 Author: Marc Delesalle
 */
 
-h1{
-  color: red;
-}
-
 .no-deco > a{
   text-decoration: none;
 }
 
 /* Overright bootstrap */
 
-.btn{
-  background-color: red;
+h1 {
+  color: #12294C;
 }
 
 .color-blue{

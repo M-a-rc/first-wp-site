@@ -6,8 +6,12 @@
       <p>Nous vous retrouvons dans notre boutique située en plein coeur de La Rochelle,<br> au 23 rue St-Yon 17000 La Rochelle</p>
     </div>
     <div class='footer-lower-part'>
-      <iframe id="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.4786968875998!2d-1.1515952308466686!3d46.16072092365476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480153a8c95831d5%3A0xd367ebd0e297b124!2s23%20Rue%20Saint-Yon%2C%2017000%20La%20Rochelle!5e0!3m2!1sfr!2sfr!4v1665160512736!5m2!1sfr!2sfr" width="700" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+      <div class="map-and-square">
+        <div style="-webkit-filter: grayscale(100%); filter: grayscale(100%);">
+          <iframe id="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d807.4786968875998!2d-1.1515952308466686!3d46.16072092365476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480153a8c95831d5%3A0xd367ebd0e297b124!2s23%20Rue%20Saint-Yon%2C%2017000%20La%20Rochelle!5e0!3m2!1sfr!2sfr!4v1665160512736!5m2!1sfr!2sfr" width="700" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        <div class="golden-square"></div>
+      </div>
       <?php
       if(function_exists('the_custom_logo')) {
         $custom_logo_id = get_theme_mod('custom_logo');
@@ -20,7 +24,7 @@
         <li class="footer-list-item">Mentions légales</li>
         <li class="footer-list-item">Confidentialité</li>
       </ul>
-      <p style="color: #12294C">Création : Médiapilote</p>
+      <p><em>Création : Médiapilote</em></p>
     </div>
   </div>
 </html>
