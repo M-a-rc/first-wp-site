@@ -1,6 +1,11 @@
-.nav{
-  padding-top: 20px;
+.sticky-nav{
   background-color: white;
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+  padding: 20px;
+}
+.nav{
   justify-content: space-around;
 }
 

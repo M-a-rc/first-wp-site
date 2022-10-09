@@ -1,4 +1,3 @@
-</div>
   <div class="footer-blue">
     <div class="footer-content">
       <i class="fa-solid fa-location-dot"></i>

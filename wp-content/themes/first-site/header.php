@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div>
+<div class="sticky-nav">
   <div class="container">
     <?php
       wp_nav_menu(
@@ -25,4 +25,3 @@
     ?>
   </div>
 </div>
-<div class="container">
