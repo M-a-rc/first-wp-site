@@ -26,4 +26,3 @@
   </div>
 </div>
 <div class="container">
-  <h1 class="mt-2"><?php the_title() ?></h1>
