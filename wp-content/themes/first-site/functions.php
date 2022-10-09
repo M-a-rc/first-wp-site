@@ -1,12 +1,11 @@
+<!-- Theme support and styles -->
 <?php
-
   function first_site_theme_support(){
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo');
   }
   add_action('after_setup_theme', 'first_site_theme_support');
-
 
   function first_site_register_styles(){
     $version = wp_get_theme()->get('Version');
@@ -17,16 +16,13 @@
   }
   add_action('wp_enqueue_scripts', 'first_site_register_styles');
 
-
-
-
-
-
   function first_site_register_scripts(){
     wp_enqueue_style('firstsite-bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js", array(), '5.2.1', 'all', true) ;
   }
   add_action('wp_enqueue_scripts', 'first_site_register_scripts');
 
+
+// <!-- Config -->
 
   function first_site_menus(){
     $locations = array(
@@ -35,6 +31,24 @@
     );
     register_nav_menus($locations);
   }
-  add_action('init', 'first_site_menus')
+  add_action('init', 'first_site_menus');
 
+// <!-- Callouts -->
+
+  // Front page
+
+  // function first_site_footer_callout($wp_customize){
+  //   $wp_customize->add_section('first-site-top-callout', array(
+  //     'title' => 'Top callout'
+  //   ));
+  //   $wp_customize->add_setting('first-site-top-callout-headline', array(
+  //     'default' => 'Example headline text'
+  //   ));
+  //   $wp_customize->add_control(new WP_Customize_control($wp_customier, 'first-site-top-callout-control', array(
+  //     'label' => 'Headline',
+  //     'section' => 'first-site-top-callout-section',
+  //     'settings' => 'first-site-top-callout-headline'
+  //   )));
+  // }
+  // add_action('customize_register', 'first_site_footer_callout');
 ?>
