@@ -6,11 +6,25 @@ Description: Just to try it out
 Author: Marc Delesalle
 */
 
+body{
+  color: #12294C;
+}
+
 .no-deco > a{
   text-decoration: none;
 }
 
-/* Overright bootstrap */
+
+/* Text */
+.small-golden-text{
+  color: #EBD6AE;
+  font-size: smaller;
+}
+
+/* Colors */
+.bg-gray{
+  background-color: #F3F4F6;
+}
 
 h1 {
   color: #12294C;
@@ -18,4 +32,23 @@ h1 {
 
 .color-blue{
   color: #12294C;
+}
+
+
+/* Buttons */
+
+.btn-principal{
+  background: linear-gradient(106deg, rgba(230,200,148,1) 9%, rgba(249,229,191,1) 50%, rgba(230,200,148,1) 88%);
+  color: #12294C;
+  border-width: 4px;
+  border: solid;
+  border-image: linear-gradient(106deg, rgba(230,200,148,1) 9%, rgba(249,229,191,1) 50%, rgba(230,200,148,1) 88%) 1 ;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: larger;
+}
+
+.btn-principal:hover {
+  background: white;
 }
