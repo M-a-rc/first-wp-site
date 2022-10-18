@@ -18,11 +18,6 @@
   }
   add_action('wp_enqueue_scripts', 'first_site_register_styles');
 
-
-
-
-
-
   function first_site_register_scripts(){
     wp_enqueue_style('firstsite-bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js", array(), '5.2.1', 'all', true) ;
   }

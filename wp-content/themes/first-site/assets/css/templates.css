@@ -177,3 +177,25 @@
   height: 10px;
   margin: 0px auto;
 }
+
+/* Carousel */
+
+.carousel-item {
+  height: 70vh;
+  width: 100vw;
+}
+
+.my-carousel-image{
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+}
+
+.my-indic{
+  height: 10px;
+  width: 45px;
+  border: 1px solid red;
+}
