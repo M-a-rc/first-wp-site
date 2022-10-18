@@ -24,6 +24,10 @@
   width: 30vh;
 }
 
+.top-wrapper-text > h1 {
+  width: 30vw;
+}
+
 .top-wrapper-image {
   width: 80vw;
   height: 60vh;

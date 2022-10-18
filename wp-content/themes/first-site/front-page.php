@@ -6,8 +6,7 @@
 
 <div class="top-wrapper">
   <div class="top-wrapper-text">
-    <h1><?php get_field('page-title') ?></h1>
-      <h1 class='color-blue'><?php the_field('page-title'); ?></h1>
+    <h1 class='color-blue'><?php the_field('titre-principal') ?></h1>
     <div class="btn-principal">Découvrir</div>
   </div>
   <div class="top-wrapper-image" style="background-image: url(https://plus.unsplash.com/premium_photo-1661255431113-d690d64f69b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)"></div>
@@ -16,8 +15,8 @@
 
 <div class="image-right-wrapper my-5">
   <div class="image-right-wrapper-text">
-    <h2>Qui est Valentine ?</h2>
-    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+    <h2><?php the_field('titre-bloc-1') ?></h2>
+    <p><?php the_field('texte-bloc-1') ?></p>
     <div class="btn-principal">Découvrez-nous</div>
   </div>
   <div class="image-right-wrapper-right-box">
@@ -32,7 +31,7 @@
       <h3 class="mb-0">NOS MARQUES</h3>
       <div class="mini-border-btm"></div>
     </div>
-    <p class="mt-3 text-center">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+    <p class="mt-3 text-center"><?php the_field('texte-bloc-marques') ?></p>
   </div>
 </div>
 
@@ -47,13 +46,13 @@
   </div>
   <div class="small-collection">
     <div class="flex-column align-items-center justify-content-center">
-      <p class="text-center">Contrôle de vue</p>
+      <p class="text-center"><?php the_field('service-1') ?></p>
     </div>
     <div class="flex-column align-items-center justify-content-center">
-      <p class="text-center">Contactologie</p>
+      <p class="text-center"><?php the_field('service-2') ?></p>
     </div>
     <div class="flex-column align-items-center justify-content-center">
-      <p class="text-center">Lunettes de soleil</p>
+      <p class="text-center"><?php the_field('service-3') ?></p>
     </div>
   </div>
 </div>
@@ -62,8 +61,8 @@
 <div class="quarter-text-wrapper my-5">
   <div class="container">
     <div class="quarter-text-wrapper-text">
-      <h3>LA QUALITÉ AU COEUR DE NOTRE VISION</h3>
-      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+      <h3><?php the_field('titre-bloc-3') ?></h3>
+      <p><?php the_field('texte-bloc-3') ?></p>
       <div class="btn-principal">En savoir plus</div>
       <div class="golden-square"></div>
     </div>
