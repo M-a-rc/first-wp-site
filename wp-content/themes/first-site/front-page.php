@@ -4,6 +4,17 @@
 
 <article>
 
+<?php
+
+  if(have_posts()){
+    while(have_posts()){
+      the_post();
+      the_content();
+    }
+  }
+
+?>
+
 <div class="top-wrapper">
   <div class="top-wrapper-text">
     <h1 class='color-blue'>Bienvenue chez Valentine, opticien et lunetier</h1>
