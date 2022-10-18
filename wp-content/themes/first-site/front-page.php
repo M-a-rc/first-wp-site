@@ -4,20 +4,10 @@
 
 <article>
 
-<?php
-
-  if(have_posts()){
-    while(have_posts()){
-      the_post();
-      the_content();
-    }
-  }
-
-?>
-
 <div class="top-wrapper">
   <div class="top-wrapper-text">
-    <h1 class='color-blue'>Bienvenue chez Valentine, opticien et lunetier</h1>
+    <h1><?php get_field('page-title') ?></h1>
+      <h1 class='color-blue'><?php the_field('page-title'); ?></h1>
     <div class="btn-principal">Découvrir</div>
   </div>
   <div class="top-wrapper-image" style="background-image: url(https://plus.unsplash.com/premium_photo-1661255431113-d690d64f69b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)"></div>

@@ -36,10 +36,5 @@
     );
     register_nav_menus($locations);
   }
-<<<<<<< HEAD
   add_action('init', 'first_site_menus');
-=======
-  add_action('init', 'first_site_menus')
-
->>>>>>> parent of b4170d5 (callout but wp-admin broken)
 ?>
