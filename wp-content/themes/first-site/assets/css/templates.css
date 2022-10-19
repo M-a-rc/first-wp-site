@@ -2,10 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15%;
-  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .small-collection{
+    width: 60%;
+  }
 }
 
 /* Top wrapper */
@@ -180,10 +185,13 @@
 
 /* Carousel */
 
-.carousel-item {
-  height: 70vh;
-  width: 100vw;
+@media (min-width: 768px) {
+  .carousel-item {
+    height: 70vh;
+    width: 100vw;
+  }
 }
+
 
 .my-carousel-image{
   object-fit: cover;
