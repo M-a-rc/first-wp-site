@@ -35,33 +35,33 @@
   </div>
 </div>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li class="my-indic" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li class="my-indic" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li class="my-indic" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="5000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 my—carousel-image" src="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="First slide">
+      <img src="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 my—carousel-image" src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Second slide">
+      <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 my—carousel-image" src="https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdsYXNzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="Third slide">
+      <img src="https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdsYXNzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">

@@ -190,12 +190,13 @@
   object-position: center;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: black;
+.my-indic{
+  height: 2px;
+  width: 50px;
+  margin: auto 2vw;
+  background-color: #EEEDEC;
 }
 
-.my-indic{
-  height: 10px;
-  width: 45px;
-  border: 1px solid red;
+.my-indic.active{
+  background-color: #EBD6AE;
 }
