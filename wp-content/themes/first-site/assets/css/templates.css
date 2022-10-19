@@ -197,6 +197,6 @@
   background-color: #EEEDEC;
 }
 
-.my-indic.active{
+.carousel-indicators > .active{
   background-color: #EBD6AE;
 }
