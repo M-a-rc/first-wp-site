@@ -38,18 +38,21 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="5000">
   <div class="carousel-indicators">
-    <div class="carousel-brand active" data-bs-slide-to="0">
-      <h3>Marque 01</h3>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="my-indicator" aria-current="true" aria-label="Slide 1"></button>
+    <div class="d-flex justify-content-end align-items-center">
+      <div class="carousel-brand active" data-bs-slide-to="0">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1200px-Cartier_logo.svg.png" alt="">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="my-indicator" aria-current="true" aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-brand" data-bs-slide-to="1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_Vuarnet.png" alt="">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="my-indicator" aria-current="true" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-brand" data-bs-slide-to="2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dolce_and_Gabbana.svg/langfr-2880px-Dolce_and_Gabbana.svg.png" alt="">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="my-indicator" aria-current="true" aria-label="Slide 3"></button>
+      </div>
     </div>
-    <div class="carousel-brand" data-bs-slide-to="1">
-      <h3>Marque 02</h3>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="my-indicator" aria-current="true" aria-label="Slide 2"></button>
-    </div>
-    <div class="carousel-brand" data-bs-slide-to="2">
-      <h3>Marque 03</h3>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="my-indicator" aria-current="true" aria-label="Slide 3"></button>
-    </div>
+    <div id="btn-brands"class="btn-principal transparent">Nos marques</div>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
