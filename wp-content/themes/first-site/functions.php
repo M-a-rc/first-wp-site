@@ -15,6 +15,7 @@
     wp_enqueue_style('firstsite-header', get_template_directory_uri() . "/assets/css/header.css", array('firstsite-bootstrap'), $version, 'all') ;
     wp_enqueue_style('firstsite-footer', get_template_directory_uri() . "/assets/css/footer.css", array('firstsite-bootstrap'), $version, 'all') ;
     wp_enqueue_style('firstsite-templates', get_template_directory_uri() . "/assets/css/templates.css", array('firstsite-bootstrap'), $version, 'all') ;
+    wp_enqueue_style('firstsite-misc', get_template_directory_uri() . "/assets/css/misc.css", array('firstsite-bootstrap'), $version, 'all') ;
   }
   add_action('wp_enqueue_scripts', 'first_site_register_styles');
 

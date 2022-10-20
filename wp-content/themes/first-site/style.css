@@ -57,3 +57,42 @@ h1 {
   background: transparent;
   color: white;
 }
+
+
+/* Margins */
+
+@media (min-width: 1401px) {
+  .container-eq-left-margin{
+    margin-left: calc(calc(100vw - 1320px)/2) !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container-eq-left-margin{
+    margin-left: calc(calc(100vw - 1140px)/2) !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-eq-left-margin{
+    margin-left: calc(calc(100vw - 960px)/2) !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-eq-left-margin{
+    margin-left: calc(calc(100vw - 720px)/2) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-eq-left-margin{
+    margin-left: calc(calc(100vw - 540px)/2) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-eq-left-margin{
+    margin-left: 0px !important;
+  }
+}

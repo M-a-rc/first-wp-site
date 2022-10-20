@@ -89,14 +89,13 @@
 </div>
 
 
-<div class="quarter-text-wrapper my-5">
-  <div class="container">
-    <div class="quarter-text-wrapper-text">
-      <h3><?php the_field('titre-bloc-3') ?></h3>
-      <p><?php the_field('texte-bloc-3') ?></p>
-      <div class="btn-principal">En savoir plus</div>
-      <div class="golden-square"></div>
-    </div>
+<div class="quarter-text-wrapper">
+  <div class="quarter-text-wrapper-text">
+    <h3><?php the_field('titre-bloc-3') ?></h3>
+    <p><?php the_field('texte-bloc-3') ?></p>
+    <div class="btn-principal">En savoir plus</div>
+    <div class="golden-square"></div>
+    <div class="quarter-text-background-image neg-container-eq-left-margin"></div>
   </div>
 </div>
 
