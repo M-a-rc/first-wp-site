@@ -192,19 +192,42 @@
   }
 }
 
-
-.my-carousel-image{
-  object-fit: cover;
-  object-position: center;
+.carousel{
+  position: relative;
 }
 
-.my-indic{
-  height: 2px;
-  width: 50px;
-  margin: auto 2vw;
-  background-color: #EEEDEC;
+.carousel-indicators{
+  height: 30%;
+  width: 25%;
+  background-color: white;
+  margin: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 7vh;
+  left: 70%;
+  padding: 2% 2%;
 }
 
-.carousel-indicators > .active{
-  background-color: #EBD6AE;
+.my-indicator{
+  background-color: #12294C !important;
+  opacity: 1 !important;
+}
+
+.carousel-brand > h3 {
+  width: 60%;
+  display: none;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+}
+
+.carousel-brand.active > .my-indicator{
+  background-color: #EBD6AE !important;
+}
+
+.carousel-brand.active > h3{
+  display: block;
 }

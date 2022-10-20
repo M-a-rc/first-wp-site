@@ -38,9 +38,18 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="5000">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="carousel-brand active" data-bs-slide-to="0">
+      <h3>Marque 01</h3>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="my-indicator" aria-current="true" aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-brand" data-bs-slide-to="1">
+      <h3>Marque 02</h3>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="my-indicator" aria-current="true" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-brand" data-bs-slide-to="2">
+      <h3>Marque 03</h3>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="my-indicator" aria-current="true" aria-label="Slide 3"></button>
+    </div>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
