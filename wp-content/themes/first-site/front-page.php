@@ -17,7 +17,7 @@
   <div class="image-right-wrapper-text">
     <h2><?php the_field('titre-bloc-1') ?></h2>
     <p><?php the_field('texte-bloc-1') ?></p>
-    <div class="btn-principal">Découvrez-nous</div>
+    <div class="btn-principal" id="abcdef">Découvrez-nous</div>
   </div>
   <div class="image-right-wrapper-right-box">
     <div class="image-right-wrapper-image" style="background-image: url(https://plus.unsplash.com/premium_photo-1661255431113-d690d64f69b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)"></div>
@@ -95,11 +95,23 @@
     <p><?php the_field('texte-bloc-3') ?></p>
     <div class="btn-principal">En savoir plus</div>
     <div class="golden-square"></div>
-    <div class="quarter-text-background-image neg-container-eq-left-margin"></div>
+    <div class="quarter-text-background-image neg-container-eq-left-margina"></div>
   </div>
 </div>
 
 </article>
+
+<script>
+  let image = document.querySelector('.image-right-wrapper-image');
+  let box = document.querySelector('.image-right-wrapper-right-box');
+  window.addEventListener( 'scroll', (event) => {
+    const scrollValue = window.scrollY;
+    image.style.left = scrollValue + 'px';
+    image.style.top = 0,1 * scrollValue + '%';
+    console.log(image.style.top)
+    }
+  )
+</script>
 
 <?php
   get_footer()

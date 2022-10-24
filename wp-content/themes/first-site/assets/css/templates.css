@@ -66,9 +66,11 @@
 /* Image right wrapper */
 
 .image-right-wrapper{
+  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10vw;
+  overflow-y: auto;
 }
 
 .image-right-wrapper-text{
@@ -87,14 +89,14 @@
 }
 
 .image-right-wrapper-image{
-  height: 100%;
+  height: 94%;
   width: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: -25px;
-  left: -25px;
+  position: relative;
+  top: 50px;
+  left: -5%;
   z-index: -1 ;
 }
 
