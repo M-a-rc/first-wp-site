@@ -19,7 +19,7 @@
 
 .btn-nav > a {
   text-decoration: none;
-  color: #13294C
+  color: #13294C;
 }
 
 .btn-nav > a:hover{
@@ -30,9 +30,13 @@
   color: #EBD6AE ;
 }
 
-.custom-navbar-logo {
-  padding: 0;
+.custom-navbar-logo{
+  height: 100%;
   width: 15%;
+  padding: 0;
+}
+
+.custom-navbar-logo > a{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,18 +48,16 @@
   background-color: #13294C;
 }
 
-.custom-navbar-logo > a {
-  display: none;
-}
-
 #nav-blason, #nav-valentine{
   height: 50%;
 }
 
+#nav-valentine{
+  margin-top: 5px;
+}
+
 #nav-blason{
   transition: all .3s ease;
-  transform-origin: top bottom;
-
 }
 
 .big-blason{

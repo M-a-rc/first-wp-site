@@ -34,7 +34,7 @@
   <script>
    const navLogo = document.querySelector(".custom-navbar-logo")
 
-   navLogo.innerHTML = `<img src="http://localhost:8000/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://localhost:8000/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
+   navLogo.childNodes[0].innerHTML = `<img src="http://localhost:8000/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://localhost:8000/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
 
    const navBlason = document.getElementById("nav-blason")
    const navValentine = document.getElementById("nav-valentine")
