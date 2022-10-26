@@ -102,15 +102,13 @@
 </article>
 
 <script>
-  let image = document.querySelector('.image-right-wrapper-image');
-  let box = document.querySelector('.image-right-wrapper-right-box');
-  window.addEventListener( 'scroll', (event) => {
-    const scrollValue = window.scrollY;
-    image.style.left = scrollValue + 'px';
-    image.style.top = 0,1 * scrollValue + '%';
-    console.log(image.style.top)
-    }
-  )
+  anime({
+  targets: '.image-right-wrapper-image',
+  translateX: 250,
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 800
+});
 </script>
 
 <?php

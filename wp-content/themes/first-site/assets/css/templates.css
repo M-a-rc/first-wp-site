@@ -66,11 +66,10 @@
 /* Image right wrapper */
 
 .image-right-wrapper{
-  height: 85vh;
+  height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10vw;
-  overflow-y: auto;
 }
 
 .image-right-wrapper-text{
@@ -95,8 +94,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 50px;
-  left: -5%;
+  top: 0%;
+  left: 0%;
   z-index: -1 ;
 }
 
