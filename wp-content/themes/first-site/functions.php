@@ -33,4 +33,10 @@
     register_nav_menus($locations);
   }
   add_action('init', 'first_site_menus');
+
+  // To remove top margin of 32px
+  function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+  }
+  add_action('get_header', 'remove_admin_login_header');
 ?>

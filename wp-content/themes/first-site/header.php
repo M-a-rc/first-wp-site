@@ -30,4 +30,31 @@
       );
     ?>
   </div>
+
+  <script>
+   const navLogo = document.querySelector(".custom-navbar-logo")
+
+   navLogo.innerHTML = `<img src="http://localhost:8000/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://localhost:8000/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
+
+   const navBlason = document.getElementById("nav-blason")
+   const navValentine = document.getElementById("nav-valentine")
+
+   console.log(navBlason)
+   console.log(navValentine)
+
+   navLogo.addEventListener('mouseenter', () => {
+      navValentine.classList.add('d-none')
+      navBlason.classList.add('big-blason')
+      navLogo.setAttribute("style", "justify-content:flex-start;");
+    }
+   )
+   navLogo.addEventListener('mouseleave', () => {
+      navValentine.classList.remove('d-none')
+      navBlason.classList.remove('big-blason')
+      navLogo.setAttribute("style", "justify-content:center;");
+
+    }
+   )
+
+  </script>
 </div>

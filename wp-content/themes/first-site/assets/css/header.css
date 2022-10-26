@@ -3,10 +3,18 @@
   z-index: 20;
   position: sticky;
   top: 0px;
-  padding: 20px;
 }
 .nav{
   justify-content: space-around;
+  height: 110px;
+  padding: 20px;
+}
+
+.menu-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-nav > a {
@@ -20,4 +28,37 @@
 
 .nav > .current-menu-item > a{
   color: #EBD6AE ;
+}
+
+.custom-navbar-logo {
+  padding: 0;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+
+.custom-navbar-logo-active{
+  background-color: #13294C;
+}
+
+.custom-navbar-logo > a {
+  display: none;
+}
+
+#nav-blason, #nav-valentine{
+  height: 50%;
+}
+
+#nav-blason{
+  transition: all .3s ease;
+  transform-origin: top bottom;
+
+}
+
+.big-blason{
+  transform: scale(2);
+  transform-origin: top center;
 }

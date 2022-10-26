@@ -101,16 +101,6 @@
 
 </article>
 
-<script>
-  anime({
-  targets: '.image-right-wrapper-image',
-  translateX: 250,
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 800
-});
-</script>
-
 <?php
   get_footer()
 ?>
