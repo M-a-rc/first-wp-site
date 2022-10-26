@@ -89,14 +89,14 @@
 }
 
 .image-right-wrapper-image{
-  height: 94%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 0%;
-  left: 0%;
+  top: -5%;
+  left: -5%;
   z-index: -1 ;
 }
 

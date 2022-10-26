@@ -83,3 +83,22 @@
 [26-Oct-2022 21:25:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
 [26-Oct-2022 21:25:46 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
 [26-Oct-2022 21:25:47 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:27:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:27:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:27:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:27:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:27:50 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:28:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:28:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:28:47 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:29:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:29:19 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:30:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:30:50 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:30:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:31:19 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:31:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:31:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:31:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[26-Oct-2022 21:32:47 UTC] PHP Notice:  Trying to get property 'title' of non-object in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-includes/class-wp-customize-widgets.php on line 899
+[26-Oct-2022 21:32:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20

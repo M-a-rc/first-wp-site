@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
+
   <?php
     wp_head()
   ?>
@@ -39,19 +40,16 @@
    const navBlason = document.getElementById("nav-blason")
    const navValentine = document.getElementById("nav-valentine")
 
-   console.log(navBlason)
-   console.log(navValentine)
-
    navLogo.addEventListener('mouseenter', () => {
       navValentine.classList.add('d-none')
       navBlason.classList.add('big-blason')
-      navLogo.setAttribute("style", "justify-content:flex-start;");
+      navLogo.childNodes[0].setAttribute("style", "justify-content:flex-start;");
     }
    )
    navLogo.addEventListener('mouseleave', () => {
       navValentine.classList.remove('d-none')
       navBlason.classList.remove('big-blason')
-      navLogo.setAttribute("style", "justify-content:center;");
+      navLogo.childNodes[0].setAttribute("style", "justify-content:center;");
 
     }
    )

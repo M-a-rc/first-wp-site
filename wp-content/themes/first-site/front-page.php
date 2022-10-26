@@ -36,7 +36,7 @@
 </div>
 
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="5000">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="3000">
   <div class="carousel-indicators">
     <div class="d-flex justify-content-end align-items-center">
       <div class="carousel-brand active" data-bs-slide-to="0">

@@ -17,7 +17,7 @@
       <h3 class="mb-0">NOS SERVICES</h3>
       <div class="mini-border-btm"></div>
     </div>
-  </div>s
+  </div>
   <div class="small-collection">
     <div class="flex-column align-items-center justify-content-center">
       <p class="text-center"><?php the_field('service-1') ?></p>
