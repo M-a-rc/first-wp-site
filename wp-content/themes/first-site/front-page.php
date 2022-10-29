@@ -94,12 +94,25 @@
 
 <div class="quarter-text-wrapper">
   <div class="quarter-text-wrapper-text">
-    <h3><?php the_field('titre-bloc-3') ?></h3>
-    <p><?php the_field('texte-bloc-3') ?></p>
-    <div class="btn-principal">En savoir plus</div>
-    <div class="golden-square"></div>
-    <div class="quarter-text-background-image neg-container-eq-left-margina"></div>
+    <div class='quarter-text-text-area'>
+      <h3><?php the_field('titre-bloc-3') ?></h3>
+      <p><?php the_field('texte-bloc-3') ?></p>
+      <div class="btn-principal">En savoir plus</div>
+      <div class="golden-square"></div>
+    </div>
+    <div class="quarter-text-background-image"></div>
   </div>
+</div>
+
+
+<div class="gallery-thirds left">
+  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1280635859-1024x1024-1.jpg" alt="Photo du magasin">
+  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1211886660-1024x1024-1.jpg" alt="Photo du magasin">
+</div>
+
+<div class="gallery-thirds right">
+  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-638922412-1024x1024-1.jpg" alt="Photo du magasin">
+  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1341637738-1024x1024-1.jpg" alt="Photo du magasin">
 </div>
 
 </article>
