@@ -1,6 +1,6 @@
   <div class="footer-blue">
     <div class="footer-content">
-      <i class="fa-solid fa-location-dot"></i>
+      <img src="http://localhost:8000/wp-content/uploads/2022/10/Lieu.png" alt="location pin" id='location-pin'>
       <p id="retrouvez-nous">Retrouvez-nous</p>
       <p>Nous vous retrouvons dans notre boutique située en plein coeur de La Rochelle,<br> au 23 rue St-Yon 17000 La Rochelle</p>
     </div>

@@ -13,7 +13,7 @@
 </div>
 
 
-<div class="image-right-wrapper my-5">
+<div class="image-right-wrapper">
   <div class="image-right-wrapper-text">
     <h2><?php the_field('titre-bloc-1') ?></h2>
     <p><?php the_field('texte-bloc-1') ?></p>
@@ -76,13 +76,16 @@
     </div>
   </div>
   <div class="small-collection">
-    <div class="flex-column align-items-center justify-content-center">
+    <div class="d-flex flex-column align-items-center justify-content-start">
+      <img src="http://localhost:8000/wp-content/uploads/2022/10/Controle-de-vue.png" alt="logo service 1" class="small-collection-image">
       <p class="text-center"><?php the_field('service-1') ?></p>
     </div>
-    <div class="flex-column align-items-center justify-content-center">
+    <div class="d-flex flex-column align-items-center justify-content-start">
+      <img src="http://localhost:8000/wp-content/uploads/2022/10/Contactologie.png" alt="logo service 2" class="small-collection-image">
       <p class="text-center"><?php the_field('service-2') ?></p>
     </div>
-    <div class="flex-column align-items-center justify-content-center">
+    <div class="d-flex flex-column align-items-center justify-content-start">
+      <img src="http://localhost:8000/wp-content/uploads/2022/10/Lunettes-de-soleil.png" alt="logo service 3"  class="small-collection-image">
       <p class="text-center"><?php the_field('service-3') ?></p>
     </div>
   </div>
