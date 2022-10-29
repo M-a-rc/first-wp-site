@@ -219,6 +219,7 @@
 .discover-wrapper{
   padding: 40px;
   width: 100vw;
+  margin: auto;
 }
 
 .discover-wrapper-text{
@@ -334,8 +335,33 @@
 /* small-banner */
 .small-banner{
   width: 100%;
-  height: 40vh;
+  height: 35vh;
   object-fit: cover;
   background-repeat: no-repeat;
   object-position: center;
+}
+
+/* Gallery-marques */
+
+.gallery-marques {
+  display: grid;
+  margin: 50px auto;
+  width: 90vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+}
+
+.marque-card{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.marque-card > img{
+  width: 90%;
+  height: 20%;
+  object-position: center;
+  object-fit: cover;
 }

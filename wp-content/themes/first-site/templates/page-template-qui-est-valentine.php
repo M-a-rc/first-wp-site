@@ -10,7 +10,7 @@
 
 <article>
 
-<img class="small-banner" src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1144406596-1024x1024-1.jpg" alt="Banner image">
+<img class="small-banner" src="http://localhost:8000/wp-content/uploads/2022/10/omid-armin-Zt99Ho5Hq3s-unsplash-scaled.jpg" alt="Banner image">
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">
@@ -19,7 +19,7 @@
       <h3 class="mb-0">QUI EST VALENTINE ?</h3>
       <div class="mini-border-btm"></div>
     </div>
-    <p class="mt-3 text-center"><?php the_field('texte-bloc-decouvrez-valentine')?></p>
+    <p class="mt-3 text-center w-50"><?php the_field('texte-bloc-decouvrez-valentine')?></p>
   </div>
   <div class="small-collection">
     <div class="d-flex flex-column align-items-center justify-content-start">
@@ -55,7 +55,6 @@
       <h3><?php the_field('titre-bloc-3') ?></h3>
       <p><?php the_field('texte-bloc-3') ?></p>
       <div class="btn-principal">En savoir plus</div>
-      <div class="golden-square btm"></div>
     </div>
     <div class="quarter-text-background-image cropped"></div>
   </div>
