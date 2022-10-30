@@ -353,15 +353,35 @@
 
 .marque-card{
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.marque-card > img{
-  width: 90%;
-  height: 20%;
-  object-position: center;
-  object-fit: cover;
+.logo-marque-card {
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  background-color: rgba(255, 255, 2555, 0.4);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  transition: all ease 0.2s;
+}
+
+.marque-card:hover > .logo-marque-card{
+  aspect-ratio: 1 / 1;
+  z-index: 3;
+}
+
+.marque-golden-square{
+  width: 95%;
+  aspect-ratio: 9 / 11;
+  border: #EBD6AE 2px solid;
+  position: absolute;
+  bottom: -5%;
+  right: -5%;
 }

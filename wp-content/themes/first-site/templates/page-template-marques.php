@@ -30,7 +30,10 @@
       while ($presence == true) : ?>
       <?php if(get_field("url-image-marque-$i")) : ?>
         <div class="marque-card" style="background-image: url(<?php the_field("url-image-marque-$i")?>)">
-          <img src="<?php the_field("url-logo-marque-$i")?>" alt="logo">
+        <div class="logo-marque-card" style="background-image: url(<?php the_field("url-logo-marque-$i")?>)"></div>
+        <?php if(get_field("cadre-or-marque-$i")) :?>
+          <div class="marque-golden-square"></div>
+        <?php endif ?>
         </div>
         <?php $i = $i + 1; ?>
       <?php else : $presence = false ; ?>

@@ -54,7 +54,7 @@
 .golden-square{
   height: 10vh;
   aspect-ratio: 1;
-  border: #EBD6AE 3px solid;
+  border: #EBD6AE 2px solid;
   position: absolute;
   top: -5vh;
   right: -5vh;
