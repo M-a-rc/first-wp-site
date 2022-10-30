@@ -349,6 +349,7 @@
   width: 90vw;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5%;
+  row-gap: 5%;
 }
 
 .marque-card{
@@ -384,4 +385,18 @@
   position: absolute;
   bottom: -5%;
   right: -5%;
+}
+
+/* text area wrapper */
+
+.text-area{
+  padding: 3%;
+  background-color: #F3F4F6;
+  width: 80%;
+  height: fit-content;
+  margin-left: 5vw;
+}
+
+.text-area-icon{
+  height: 3em;
 }
