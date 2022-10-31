@@ -63,3 +63,33 @@ h1 {
   background: transparent;
   color: white;
 }
+
+.wpforms-field > input, textarea {
+  border-color: #EBD6AE !important;
+}
+
+.wpforms-field > label{
+  font-weight: 600 !important;
+}
+
+.wpforms-submit-container{
+  width: 100% !important;
+}
+
+.wpforms-submit-container > button{
+  font-weight: 600 !important;
+  background: linear-gradient(106deg, rgba(230,200,148,1) 9%, rgba(249,229,191,1) 50%, rgba(230,200,148,1) 88%) !important;
+  color: #12294C !important;
+  border-width: 4px !important;
+  border: solid !important;
+  border-image: linear-gradient(106deg, rgba(230,200,148,1) 9%, rgba(249,229,191,1) 50%, rgba(230,200,148,1) 88%) 1  !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  padding: 10px 30px !important;
+  font-size: larger !important;
+  font-weight: 600 !important;
+}
+
+.wpforms-submit-container > button:hover{
+  background: white !important;
+}
