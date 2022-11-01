@@ -17,14 +17,14 @@
   <div class="image-right-wrapper-text">
     <h2><?php the_field('titre-bloc-1') ?></h2>
     <p><?php the_field('texte-bloc-1') ?></p>
-    <div class="btn-principal" id="abcdef">Découvrez-nous</div>
+    <div class="btn-principal">Découvrez-nous</div>
   </div>
   <div class="image-right-wrapper-right-box">
     <div class="image-right-wrapper-image" style="background-image: url(https://plus.unsplash.com/premium_photo-1661255431113-d690d64f69b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60)"></div>
   </div>
 </div>
 
-<div class="discover-wrapper bg-gray">
+<div id="test-trigger" class="discover-wrapper bg-gray d-none">
   <div class="discover-wrapper-text">
     <span class='small-golden-text'>DÉCOUVREZ</span>
     <div class="flex-column align-items-center justify-content-center">
@@ -35,9 +35,28 @@
   </div>
 </div>
 
+
+
+<!-- <script>
+  // init controller
+  const myElement = document.getElementById('test-trigger')
+  console.log(myElement)
+  var controller = new ScrollMagic.Controller();
+  // build scene
+  new ScrollMagic.Scene({
+            triggerElement: myElement,
+            triggerHook: 0.9, // show, when scrolled 10% into view
+            duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+            offset: 50 // move trigger to center of element
+          })
+          .setClassToggle("d-none") // add class toggle
+          .addTo(controller);
+</script> -->
+
+
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div id="mobile-carousel-control">
-    <div class="carousel-indicators mobile">
+    <div id="carousel-mobile" class="mobile">
 
       <button id="my-carousel-btn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
@@ -94,6 +113,14 @@
 
 </div>
 
+<script>
+  const mobileIndicators = document.getElementById("carousel-mobile")
+  if (window.innerWidth < 769) {
+    mobileIndicators.classList.add('carousel-indicators')
+  } else if (window.innerWidth > 769) {
+    mobileIndicators.classList.remove('carousel-indicators')
+  }
+</script>
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">

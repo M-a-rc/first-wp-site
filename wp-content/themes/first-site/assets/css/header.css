@@ -73,7 +73,26 @@
   }
 }
 
+@media(max-width: 1000px){
+  .btn-nav > a {
+    font-size: 14px;
+
+  }
+
+  .nav{
+    justify-content: space-between;
+  }
+
+  .desktop-menu-element{
+    padding: 0px;
+  }
+}
+
 @media(max-width: 768px){
+  .nav{
+    justify-content: space-around;
+  }
+
   #desktop-menu > .nav > .desktop-menu-element {
     display: none;
   }
