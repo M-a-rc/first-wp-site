@@ -19,7 +19,7 @@
       <h3 class="mb-0">NOS MARQUES</h3>
       <div class="mini-border-btm"></div>
     </div>
-    <p class="mt-3 text-center w-50"><?php the_field('texte-bloc-decouvrez-marques')?></p>
+    <p class="mt-3 text-center"><?php the_field('texte-bloc-decouvrez-marques')?></p>
   </div>
 
   <div class="gallery-marques">

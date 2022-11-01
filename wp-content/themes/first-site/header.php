@@ -33,7 +33,7 @@
     ?>
   </div>
 
-  <div id="mobile-menu-modal" class="container d-none">
+  <div id="mobile-menu-modal" class="d-none">
     <?php
       wp_nav_menu(
         array(

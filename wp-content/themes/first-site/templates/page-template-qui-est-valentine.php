@@ -19,7 +19,7 @@
       <h3 class="mb-0">QUI EST VALENTINE ?</h3>
       <div class="mini-border-btm"></div>
     </div>
-    <p class="mt-3 text-center w-50"><?php the_field('texte-bloc-decouvrez-valentine')?></p>
+    <p class="mt-3 text-center"><?php the_field('texte-bloc-decouvrez-valentine')?></p>
   </div>
   <div class="small-collection">
     <div class="d-flex flex-column align-items-center justify-content-start">
