@@ -34,7 +34,7 @@
 }
 
 
-@media(min-width: 768px){
+@media(min-width: 769px){
   #hamburger{
     display: none;
   }
@@ -73,7 +73,7 @@
   }
 }
 
-@media(max-width: 769px){
+@media(max-width: 768px){
   #desktop-menu > .nav > .desktop-menu-element {
     display: none;
   }

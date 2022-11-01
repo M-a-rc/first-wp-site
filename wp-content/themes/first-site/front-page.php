@@ -35,10 +35,36 @@
   </div>
 </div>
 
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div id="mobile-carousel-control">
+    <div class="carousel-indicators mobile">
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-bs-interval="3000">
-  <div class="carousel-indicators">
-    <div class="d-flex justify-content-end align-items-center">
+      <button id="my-carousel-btn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <div id="mobile-current-brand-logo">
+        <div class="carousel-brand active" data-bs-slide-to="0">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1200px-Cartier_logo.svg.png" alt="">
+        </div>
+        <div class="carousel-brand" data-bs-slide-to="1">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_Vuarnet.png" alt="">
+        </div>
+        <div class="carousel-brand" data-bs-slide-to="2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dolce_and_Gabbana.svg/langfr-2880px-Dolce_and_Gabbana.svg.png" alt="">
+        </div>
+      </div>
+
+      <button id="my-carousel-btn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+  <div class="carousel-indicators desktop">
+    <div class="indicator-and-logo">
       <div class="carousel-brand active" data-bs-slide-to="0">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1200px-Cartier_logo.svg.png" alt="">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="my-indicator" aria-current="true" aria-label="Slide 1"></button>
@@ -65,7 +91,9 @@
       <img src="https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdsYXNzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
     </div>
   </div>
+
 </div>
+
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">
