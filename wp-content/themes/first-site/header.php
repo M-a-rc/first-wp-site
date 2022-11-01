@@ -18,8 +18,22 @@
 </head>
 <body>
 
+<i id="hamburger" class="fa-solid fa-bars"></i>
 <div class="sticky-nav">
-  <div class="container">
+  <div id='desktop-menu' class="container">
+    <?php
+      wp_nav_menu(
+        array(
+          'menu' => 'primary',
+          'container' => '',
+          'theme_location' => 'primary',
+          'items_wrap' => '<ul id="" class="nav">%3$s</ul>'
+        )
+      );
+    ?>
+  </div>
+
+  <div id="mobile-menu-modal" class="container d-none">
     <?php
       wp_nav_menu(
         array(
@@ -33,6 +47,7 @@
   </div>
 
   <script>
+  // Hover logo :
    const navLogo = document.querySelector(".custom-navbar-logo")
 
    navLogo.childNodes[0].innerHTML = `<img src="http://localhost:8000/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://localhost:8000/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
@@ -43,16 +58,36 @@
    navLogo.addEventListener('mouseenter', () => {
       navValentine.classList.add('d-none')
       navBlason.classList.add('big-blason')
-      navLogo.childNodes[0].setAttribute("style", "justify-content:flex-start;");
+      navLogo.childNodes[0].setAttribute("style", "justify-content:flex-start;")
     }
    )
    navLogo.addEventListener('mouseleave', () => {
       navValentine.classList.remove('d-none')
       navBlason.classList.remove('big-blason')
-      navLogo.childNodes[0].setAttribute("style", "justify-content:center;");
+      navLogo.childNodes[0].setAttribute("style", "justify-content:center;")
 
     }
    )
+
+  //  Responsive Mobile :
+  const hamburger = document.getElementById("hamburger")
+  const mobileMenu = document.getElementById("mobile-menu-modal")
+  const mobileMenuElements = mobileMenu.querySelectorAll(".desktop-menu-element")
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('fa-bars')
+    hamburger.classList.toggle('fa-xmark')
+    mobileMenu.classList.toggle('d-none')
+    document.querySelector('body').classList.toggle('overflow-hidden')
+
+    mobileMenuElements.forEach(element => {
+      if (element.style.display == 'none') {
+        element.style.display = 'block'
+      } else if(element.style.display == 'block') {
+        element.style.display = 'none'
+      }
+    });
+  })
 
   </script>
 </div>
