@@ -115,3 +115,9 @@
     width: 100vw;
   }
 }
+
+@media(max-width: 450px){
+  .desktop-menu-element > a {
+    font-size: 14px;
+  }
+}

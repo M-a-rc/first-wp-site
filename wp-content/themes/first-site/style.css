@@ -19,6 +19,18 @@ h3 {
   font-weight: 600;
 }
 
+@media(max-width: 768px){
+  p{
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 450px){
+  p{
+    font-size: 12px;
+  }
+}
+
 
 /* Text */
 .small-golden-text{
@@ -64,6 +76,15 @@ h1 {
   color: white;
 }
 
+@media(max-width:768px){
+
+  .btn-principal{
+    font-size: 15px;
+    padding: 3px 7px;
+  }
+}
+
+/* WPForms */
 .wpforms-field > input, textarea {
   border-color: #EBD6AE !important;
 }

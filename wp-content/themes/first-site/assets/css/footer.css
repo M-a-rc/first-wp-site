@@ -72,7 +72,7 @@
   list-style: none;
   padding: 20px auto;
   font-size: 10px;
-  width: 100px;
+  width: 30%;
   text-align: center;
   margin: 10px;
 }
@@ -82,6 +82,7 @@
 }
 
 
+
 @media(max-width: 768px){
   .map-and-square > .golden-square{
     display: none;
@@ -89,5 +90,10 @@
 
   #footer-map{
     width: 100vw;
+  }
+
+  .map-and-square{
+    top: 5vh;
+    margin-bottom: 5vh;
   }
 }
