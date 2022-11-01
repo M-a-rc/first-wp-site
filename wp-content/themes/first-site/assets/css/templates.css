@@ -48,6 +48,7 @@
   .top-wrapper-text{
     text-align: center;
     left: auto;
+    width: 70%;
   }
 
   .top-wrapper-text > .btn-principal {
@@ -57,6 +58,11 @@
   .top-wrapper-image{
     width: 100vw;
     height: 100%;
+  }
+
+  .top-wrapper-text > h1{
+    margin: 0px auto;
+    width: 100%;
   }
 }
 
@@ -107,6 +113,11 @@
 @media (max-width: 768px) {
   .image-right-wrapper{
     display: block;
+    height: fit-content;
+  }
+
+  .image-right-wrapper-text > h2 {
+    font-size: 35px;
   }
 
   .image-right-wrapper-right-box{
@@ -114,6 +125,103 @@
   }
 }
 
+
+/* discover wrapper */
+.discover-wrapper{
+  padding: 40px;
+  width: 100vw;
+  margin: auto;
+}
+
+.discover-wrapper-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.discover-wrapper-text > p {
+  font-size: smaller;
+  width: 50%;
+}
+
+.mini-border-btm {
+  border-bottom: 2px solid #12294C;
+  width: 10%;
+  height: 10px;
+  margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+  .discover-wrapper-text > p {
+    width: 100%;
+  }
+}
+
+/* Carousel */
+
+@media (min-width: 768px) {
+  .carousel-item {
+    height: 70vh;
+    width: 100vw;
+  }
+}
+
+.carousel{
+  position: relative;
+}
+
+.carousel-indicators{
+  height: 50%;
+  width: 30%;
+  background-color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  padding: 4% 2%;
+}
+
+.my-indicator{
+  background-color: #12294C !important;
+  opacity: 1 !important;
+}
+
+.carousel-brand > img {
+  width: 80%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: center;
+}
+
+.carousel-brand.active > .my-indicator{
+  background-color: #EBD6AE !important;
+}
+
+.carousel-brand.active > img{
+  display: block;
+}
+
+.carousel-item > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#btn-brands{
+  position: absolute;
+  bottom: -4em;
+}
 
 /* Quarter text wrapper */
 
@@ -195,8 +303,6 @@
   min-height: 60vh;
 }
 
-
-
 @media (max-width: 768px) {
   .quarter-text-wrapper{
     background-image: none;
@@ -213,96 +319,6 @@
   .quarter-text-wrapper-text > .golden-square {
     display: none;
   }
-}
-
-/* discover wrapper */
-.discover-wrapper{
-  padding: 40px;
-  width: 100vw;
-  margin: auto;
-}
-
-.discover-wrapper-text{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.discover-wrapper-text > p {
-  font-size: smaller;
-}
-
-.mini-border-btm {
-  border-bottom: 2px solid #12294C;
-  width: 10%;
-  height: 10px;
-  margin: 0px auto;
-}
-
-/* Carousel */
-
-@media (min-width: 768px) {
-  .carousel-item {
-    height: 70vh;
-    width: 100vw;
-  }
-}
-
-.carousel{
-  position: relative;
-}
-
-.carousel-indicators{
-  height: 50%;
-  width: 30%;
-  background-color: white;
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  position: absolute;
-  top: 15%;
-  left: 60%;
-  padding: 4% 2%;
-}
-
-.my-indicator{
-  background-color: #12294C !important;
-  opacity: 1 !important;
-}
-
-.carousel-brand > img {
-  width: 80%;
-  height: 50%;
-  object-fit: contain;
-  object-position: center;
-  display: none;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  text-align: center;
-}
-
-.carousel-brand.active > .my-indicator{
-  background-color: #EBD6AE !important;
-}
-
-.carousel-brand.active > img{
-  display: block;
-}
-
-.carousel-item > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-#btn-brands{
-  position: absolute;
-  bottom: -4em;
 }
 
 /* Gallery */
