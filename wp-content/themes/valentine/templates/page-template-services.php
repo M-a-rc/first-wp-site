@@ -42,7 +42,7 @@
     <div class='quarter-text-text-area cropped'>
       <h3><?php the_field('titre-bloc-texte-gauche') ?></h3>
       <p><?php the_field('texte-bloc-texte-gauche') ?></p>
-      <div class="btn-principal">En savoir plus</div>
+      <a class="btn-principal" href="<?php the_field('url-btn-bloc-texte-gauche') ?>"><?php the_field('label-btn-bloc-texte-gauche') ?></a>
       <div class="golden-square btm"></div>
     </div>
     <div class="quarter-text-background-image cropped" style="background-image: url(<?php the_field('image-bloc-texte-gauche')?>)"></div>

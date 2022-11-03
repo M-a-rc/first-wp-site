@@ -42,7 +42,7 @@
     <div class='quarter-text-text-area reversed blue'>
       <h3><?php the_field('titre-bloc-bleu') ?></h3>
       <p><?php the_field('texte-bloc-bleu') ?></p>
-      <div class="btn-principal">En savoir plus</div>
+      <a class="btn-principal" href="<?php the_field('url-btn-bloc-bleu') ?>"><?php the_field('label-btn-bloc-bleu') ?></a>
       <div class="golden-square"></div>
     </div>
     <div class="quarter-text-background-image" style="background-image: url(<?php the_field('image-bloc-bleu')?>)"></div>
@@ -54,7 +54,7 @@
     <div class='quarter-text-text-area cropped'>
       <h3><?php the_field('titre-bloc-3') ?></h3>
       <p><?php the_field('texte-bloc-3') ?></p>
-      <div class="btn-principal">En savoir plus</div>
+      <a class="btn-principal" href="<?php the_field('url-btn-bloc-3') ?>"><?php the_field('label-btn-bloc-3') ?></a>
     </div>
     <div class="quarter-text-background-image cropped" style="background-image: url(<?php the_field('image-bloc-3')?>)"></div>
   </div>

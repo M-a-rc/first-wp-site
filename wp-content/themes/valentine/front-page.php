@@ -78,7 +78,7 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="my-indicator" aria-current="true" aria-label="Slide 3"></button>
       </div>
     </div>
-    <div id="btn-brands"class="btn-principal transparent">Nos marques</div>
+    <a id="btn-brands" class="btn-principal transparent" href="<?php the_field('url-btn-nos-marques')?>">Nos marques</a>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">

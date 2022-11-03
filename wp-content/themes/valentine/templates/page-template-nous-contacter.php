@@ -10,7 +10,7 @@
 
 <article>
 
-<img class="small-banner" src="http://localhost:8000/wp-content/uploads/2022/10/omid-armin-Zt99Ho5Hq3s-unsplash-scaled.jpg" alt="Banner image">
+<img class="small-banner" src="<?php the_field('small-banner-image')?>" alt="Banner image">
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">
