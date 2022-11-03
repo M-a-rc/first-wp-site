@@ -23,15 +23,15 @@
   </div>
   <div class="small-collection">
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Controle-de-vue.png" alt="logo service 1" class="small-collection-image">
+      <img src="<?php the_field('logo-service-1') ?>" alt="logo service 1" class="small-collection-image">
       <p class="text-center"><?php the_field('service-1') ?></p>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Contactologie.png" alt="logo service 2" class="small-collection-image">
+      <img src="<?php the_field('logo-service-2') ?>" alt="logo service 2" class="small-collection-image">
       <p class="text-center"><?php the_field('service-2') ?></p>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Lunettes-de-soleil.png" alt="logo service 3"  class="small-collection-image">
+      <img src="<?php the_field('logo-service-3') ?>" alt="logo service 3"  class="small-collection-image">
       <p class="text-center"><?php the_field('service-3') ?></p>
     </div>
   </div>
@@ -45,7 +45,7 @@
       <div class="btn-principal">En savoir plus</div>
       <div class="golden-square btm"></div>
     </div>
-    <div class="quarter-text-background-image cropped"></div>
+    <div class="quarter-text-background-image cropped" style="background-image: url(<?php the_field('image-bloc-texte-gauche')?>)"></div>
   </div>
 </div>
 
