@@ -102,3 +102,14 @@
 [26-Oct-2022 21:31:55 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
 [26-Oct-2022 21:32:47 UTC] PHP Notice:  Trying to get property 'title' of non-object in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-includes/class-wp-customize-widgets.php on line 899
 [26-Oct-2022 21:32:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Users/Marc/code/M-a-rc/wordpress/first-site/wp-content/themes/first-site/footer.php on line 20
+[03-Nov-2022 18:07:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 13
+[03-Nov-2022 18:07:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 13
+[03-Nov-2022 18:07:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 13
+[03-Nov-2022 18:07:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 13
+[03-Nov-2022 18:12:58 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:13:01 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:14:09 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:14:36 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:14:58 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:16:00 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 25
+[03-Nov-2022 18:16:00 UTC] PHP Warning:  Illegal string offset 'url' in /Users/Marc/code/M-a-rc/wordpress/valentine/wp-content/themes/valentine/front-page.php on line 26

@@ -7,9 +7,9 @@
 <div class="top-wrapper">
   <div class="top-wrapper-text">
     <h1 class='color-blue'><?php the_field('titre-banner') ?></h1>
-    <div class="btn-principal">Découvrir</div>
+    <a class="btn-principal" href="<?php the_field('url-btn-banner') ?>"><?php the_field('label-btn-banner') ?></a>
   </div>
-  <div class="top-wrapper-image" style="background-image: url(<?php the_field('url-image-banner') ?>)"></div>
+  <div class="top-wrapper-image" style="background-image: url(<?php the_field('image-banner') ?>)"></div>
 </div>
 
 
@@ -20,7 +20,7 @@
     <a class="btn-principal" href="<?php the_field('url-btn-bloc-1') ?>"><?php the_field('label-btn-bloc-1') ?></a>
   </div>
   <div class="image-right-wrapper-right-box">
-    <div class="image-right-wrapper-image" style="background-image: url(<?php the_field('url-image-bloc-1') ?>)"></div>
+    <div class="image-right-wrapper-image" style="background-image: url(<?php the_field('image-bloc-1') ?>)"></div>
   </div>
 </div>
 
@@ -46,13 +46,13 @@
 
       <div id="mobile-current-brand-logo">
         <div class="carousel-brand active" data-bs-slide-to="0">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1200px-Cartier_logo.svg.png" alt="">
+            <img src="<?php the_field('logo-marque-1') ?>" alt="logo marque">
         </div>
         <div class="carousel-brand" data-bs-slide-to="1">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_Vuarnet.png" alt="">
+          <img src="<?php the_field('logo-marque-2') ?>" alt="logo marque">
         </div>
         <div class="carousel-brand" data-bs-slide-to="2">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dolce_and_Gabbana.svg/langfr-2880px-Dolce_and_Gabbana.svg.png" alt="">
+          <img src="<?php the_field('logo-marque-3') ?>" alt="logo marque">
         </div>
       </div>
 
@@ -66,15 +66,15 @@
   <div class="carousel-indicators desktop">
     <div class="indicator-and-logo">
       <div class="carousel-brand active" data-bs-slide-to="0">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1200px-Cartier_logo.svg.png" alt="">
+        <img src="<?php the_field('logo-marque-1') ?>" alt="logo marque">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="my-indicator" aria-current="true" aria-label="Slide 1"></button>
       </div>
       <div class="carousel-brand" data-bs-slide-to="1">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_Vuarnet.png" alt="">
+        <img src="<?php the_field('logo-marque-2') ?>" alt="logo marque">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="my-indicator" aria-current="true" aria-label="Slide 2"></button>
       </div>
       <div class="carousel-brand" data-bs-slide-to="2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dolce_and_Gabbana.svg/langfr-2880px-Dolce_and_Gabbana.svg.png" alt="">
+        <img src="<?php the_field('logo-marque-3') ?>" alt="logo marque">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="my-indicator" aria-current="true" aria-label="Slide 3"></button>
       </div>
     </div>
@@ -82,13 +82,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+      <img src="<?php the_field('image-marque-1') ?>" class="d-block w-100" alt="image-commerciale-marque">
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+      <img src="<?php the_field('image-marque-2') ?>" class="d-block w-100" alt="image-commerciale-marque">
     </div>
     <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1582142407894-ec85a1260a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdsYXNzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+      <img src="<?php the_field('image-marque-3') ?>" class="d-block w-100" alt="image-commerciale-marque">
     </div>
   </div>
 
@@ -113,15 +113,15 @@
   </div>
   <div class="small-collection">
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Controle-de-vue.png" alt="logo service 1" class="small-collection-image">
+      <img src="<?php the_field('logo-service-1') ?>" alt="logo service 1" class="small-collection-image">
       <p class="text-center"><?php the_field('service-1') ?></p>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Contactologie.png" alt="logo service 2" class="small-collection-image">
+      <img src="<?php the_field('logo-service-1') ?>" alt="logo service 2" class="small-collection-image">
       <p class="text-center"><?php the_field('service-2') ?></p>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Lunettes-de-soleil.png" alt="logo service 3"  class="small-collection-image">
+      <img src="<?php the_field('logo-service-1') ?>" alt="logo service 3"  class="small-collection-image">
       <p class="text-center"><?php the_field('service-3') ?></p>
     </div>
   </div>
@@ -133,22 +133,22 @@
     <div class='quarter-text-text-area'>
       <h3><?php the_field('titre-bloc-3') ?></h3>
       <p><?php the_field('texte-bloc-3') ?></p>
-      <div class="btn-principal">En savoir plus</div>
+      <a class="btn-principal" href="<?php the_field('url-btn-bloc-3') ?>"><?php the_field('label-btn-bloc-3') ?></a>
       <div class="golden-square"></div>
     </div>
-    <div class="quarter-text-background-image"></div>
+    <div class="quarter-text-background-image" style="background-image: url(<?php the_field('image-bloc-3')?>)"></div>
   </div>
 </div>
 
 
 <div class="gallery-thirds left">
-  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1280635859-1024x1024-1.jpg" alt="Photo du magasin">
-  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1211886660-1024x1024-1.jpg" alt="Photo du magasin">
+  <img src="<?php the_field('gallery-image-1')?>" alt="Photo du magasin">
+  <img src="<?php the_field('gallery-image-2')?>" alt="Photo du magasin">
 </div>
 
 <div class="gallery-thirds right">
-  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-638922412-1024x1024-1.jpg" alt="Photo du magasin">
-  <img src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1341637738-1024x1024-1.jpg" alt="Photo du magasin">
+  <img src="<?php the_field('gallery-image-3')?>" alt="Photo du magasin">
+  <img src="<?php the_field('gallery-image-4')?>" alt="Photo du magasin">
 </div>
 
 </article>

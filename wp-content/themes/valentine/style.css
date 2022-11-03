@@ -65,10 +65,12 @@ h1 {
   padding: 10px 30px;
   font-size: larger;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .btn-principal:hover {
   background: white;
+  color: #12294C;
 }
 
 .btn-principal.transparent:hover{
