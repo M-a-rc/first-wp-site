@@ -10,7 +10,7 @@
 
 <article>
 
-<img class="small-banner" src="http://localhost:8000/wp-content/uploads/2022/10/omid-armin-Zt99Ho5Hq3s-unsplash-scaled.jpg" alt="Banner image">
+<img class="small-banner" src="<?php the_field('small-banner-image')?>" alt="Banner image">
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">
@@ -28,9 +28,9 @@
       $presence = true;
       $i = 1;
       while ($presence == true) : ?>
-      <?php if(get_field("url-image-marque-$i")) : ?>
-        <div class="marque-card" style="background-image: url(<?php the_field("url-image-marque-$i")?>)">
-        <div class="logo-marque-card" style="background-image: url(<?php the_field("url-logo-marque-$i")?>)"></div>
+      <?php if(get_field("image-marque-$i")) : ?>
+        <div class="marque-card" style="background-image: url(<?php the_field("image-marque-$i")?>)">
+        <div class="logo-marque-card" style="background-image: url(<?php the_field("logo-marque-$i")?>)"></div>
         <?php if(get_field("cadre-or-marque-$i")) :?>
           <div class="marque-golden-square"></div>
         <?php endif ?>

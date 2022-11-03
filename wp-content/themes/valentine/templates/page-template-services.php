@@ -10,7 +10,7 @@
 
 <article>
 
-<img class="small-banner" src="http://localhost:8000/wp-content/uploads/2022/10/gettyimages-1144406596-1024x1024-1.jpg" alt="Banner image">
+<img class="small-banner" src="<?php the_field('small-banner-image')?>" alt="Banner image">
 
 <div class="discover-wrapper">
   <div class="discover-wrapper-text">
