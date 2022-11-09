@@ -1,0 +1,104 @@
+.footer-blue{
+  background-color: #12294C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  height: 400px;
+}
+.footer-content{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-content > p {
+  font-size: smaller;
+}
+
+.footer-content > #retrouvez-nous {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footer-lower-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 230px;
+}
+
+.footer-lower-part > p {
+  color: #12294C;
+  font-size: smaller;
+}
+
+#footer-map{
+  max-width: 1300px;
+  width: 80vw;
+  aspect-ratio: 5 / 2;
+}
+
+.map-and-square{
+  position: relative;
+}
+
+.golden-square{
+  height: 10vh;
+  aspect-ratio: 1;
+  border: #EBD6AE 2px solid;
+  position: absolute;
+  top: -5vh;
+  right: -5vh;
+  z-index: 3;
+}
+
+#footer-logo{
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-list-item{
+  color: #12294C;
+  list-style: none;
+  padding: 20px auto;
+  font-size: smaller;
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-list-item:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-list-item > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#location-pin{
+  height: 35%;
+}
+
+
+
+@media(max-width: 768px){
+  .map-and-square > .golden-square{
+    display: none;
+  }
+
+  #footer-map{
+    width: 100vw;
+  }
+
+  .map-and-square{
+    top: 5vh;
+    margin-bottom: 5vh;
+  }
+}

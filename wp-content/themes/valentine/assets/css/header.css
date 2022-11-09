@@ -1,0 +1,149 @@
+.sticky-nav{
+  background-color: white;
+  z-index: 20;
+  position: sticky;
+  top: 0px;
+}
+
+.nav{
+  justify-content: space-around;
+  height: 13vh;
+  padding: 20px;
+  align-items: center;
+}
+
+.custom-navbar-logo{
+  height: 120%;
+  max-height: 170px;
+  width: 15%;
+  padding: 0;
+}
+
+.custom-navbar-logo > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+
+#nav-valentine{
+  height: 60%;
+}
+
+#nav-blason{
+  height: 40%;
+}
+
+#nav-valentine{
+  margin-top: 5px;
+}
+
+
+@media(min-width: 769px){
+  #hamburger{
+    display: none;
+  }
+
+  .menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-nav > a {
+    text-decoration: none;
+    color: #13294C;
+  }
+
+  .btn-nav > a:hover{
+    color: #EBD6AE;
+  }
+
+  .nav > .current-menu-item > a{
+    color: #EBD6AE ;
+  }
+
+  .custom-navbar-logo-active{
+    background-color: #13294C;
+  }
+
+  #nav-blason{
+    transition: all .3s ease;
+  }
+
+  .big-blason{
+    transform: scale(2);
+    transform-origin: top center;
+  }
+}
+
+@media(max-width: 1000px){
+  .btn-nav > a {
+    font-size: 14px;
+
+  }
+
+  .nav{
+    justify-content: space-between;
+  }
+
+  .desktop-menu-element{
+    padding: 0px;
+  }
+}
+
+@media(max-width: 768px){
+  .nav{
+    justify-content: space-around;
+  }
+
+  #desktop-menu > .nav > .desktop-menu-element {
+    display: none;
+  }
+
+  #mobile-menu-modal > .nav > .custom-navbar-logo {
+    display: none;
+  }
+
+  .desktop-menu-element > a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  #mobile-menu-modal > .nav {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    margin: 0px auto;
+    row-gap: 10%;
+  }
+
+  #hamburger{
+    font-size: 30px;
+    color: #13294C;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 30;
+  }
+
+  #mobile-menu-modal{
+    height: 87vh;
+    position: static;
+    background-color: #13294C;
+    width: 100vw;
+    padding: 5%;
+  }
+}
+
+@media(max-width: 450px){
+  .desktop-menu-element > a {
+    font-size: 14px;
+  }
+}
