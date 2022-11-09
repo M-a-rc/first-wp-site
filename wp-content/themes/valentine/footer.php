@@ -1,6 +1,6 @@
   <div class="footer-blue">
     <div class="footer-content">
-      <img src="http://localhost:8000/wp-content/uploads/2022/10/Lieu.png" alt="location pin" id='location-pin'>
+      <img src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/Lieu.png" alt="location pin" id='location-pin'>
       <p id="retrouvez-nous">Retrouvez-nous</p>
       <p>Nous vous retrouvons dans notre boutique située en plein coeur de La Rochelle,<br> au 23 rue St-Yon 17000 La Rochelle</p>
     </div>
@@ -11,13 +11,7 @@
         </div>
         <div class="golden-square"></div>
       </div>
-      <?php
-      if(function_exists('the_custom_logo')) {
-        $custom_logo_id = get_theme_mod('custom_logo');
-        $logo = wp_get_attachment_image_src($custom_logo_id);
-        }
-      ?>
-      <img src="<?php echo $logo[0] ?>" alt="Logo" id="footer-logo">
+      <img src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/blason.png" alt="Logo" id="footer-logo">
       <ul class="list-group list-group-horizontal">
         <li class="footer-list-item">Cookies</li>
         <li class="footer-list-item">Mentions légales</li>

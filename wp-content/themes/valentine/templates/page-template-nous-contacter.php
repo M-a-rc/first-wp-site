@@ -27,11 +27,11 @@
   <div class="text-area">
     <p style="font-weight: 600"><?php the_field('texte-horaires')?></p>
     <div class="d-flex align-items-center">
-      <img class="text-area-icon" src="http://localhost:8000/wp-content/uploads/2022/10/Telephone.png" alt="">
+      <img class="text-area-icon" src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/Telephone.png" alt="">
       <p class="my-0"><?php the_field('telephone')?></p>
     </div>
     <div class="d-flex align-items-center mb-3">
-      <img class="text-area-icon" src="http://localhost:8000/wp-content/uploads/2022/10/Mail.png" alt="">
+      <img class="text-area-icon" src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/Mail.png" alt="">
       <p class="my-0"><?php the_field('email')?></p>
     </div>
     <p style="font-weight: 600">À bientôt</p>
@@ -42,14 +42,8 @@
 </div>
 
 
-<div class="container">
-  <?php
-    if(have_posts()){
-      while(have_posts()){
-        the_post();
-        get_template_part( 'template-parts/content-page' );    }
-    }
-  ?>
+<div class="contact-form">
+  <?php echo do_shortcode('[contact-form-7 id="335" title="Contact form 1"]');?>
 </div>
 
 </article>

@@ -2,10 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15%;
-  margin: 10px auto}
+  margin: 10px auto;
+  width: 100%;
+}
 
-.small-collection-image{
-  height: 60%;
+.small-collection-sub-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 769px){
@@ -235,6 +240,7 @@
 
 
 @media (min-width: 769px) {
+
   .carousel-item {
     height: 70vh;
     width: 100vw;
@@ -255,8 +261,24 @@
 }
 
 @media (max-width: 768px){
+  .carousel{
+    height: 70vh;
+  }
+
+  .carousel-inner{
+    height: 60%;
+  }
+
   .indicator-and-logo{
     display: none;
+  }
+
+  .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-item > img {
+    height: 100%;
   }
 
   .carousel-indicators.desktop{
@@ -316,7 +338,7 @@
 
   #btn-brands{
     position: absolute;
-    bottom: -7em;
+    bottom: -5em;
     font-size: 15px;
   }
 
@@ -602,7 +624,22 @@
 
 @media(max-width: 768px){
   .text-area{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+}
+
+/* Contact form */
+
+.contact-form{
+  width: 50vw;
+  margin: 3vh auto;
+}
+
+@media(max-width: 768px){
+  .contact-form{
+    width: 90vw;
   }
 }

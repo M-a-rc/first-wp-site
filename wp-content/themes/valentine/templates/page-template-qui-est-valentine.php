@@ -22,16 +22,16 @@
     <p class="mt-3 text-center"><?php the_field('texte-bloc-decouvrez-valentine')?></p>
   </div>
   <div class="small-collection">
-    <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="<?php the_field('logo-service-1') ?>" alt="logo service 1" class="small-collection-image">
+    <div class="small-collection-sub-div">
+      <img class="w-100" src="<?php the_field('logo-service-1') ?>" alt="logo service 1">
       <p class="text-center"><?php the_field('service-1') ?></p>
     </div>
-    <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="<?php the_field('logo-service-2') ?>" alt="logo service 2" class="small-collection-image">
+    <div class="small-collection-sub-div">
+      <img class="w-100" src="<?php the_field('logo-service-2') ?>" alt="logo service 2">
       <p class="text-center"><?php the_field('service-2') ?></p>
     </div>
-    <div class="d-flex flex-column align-items-center justify-content-start">
-      <img src="<?php the_field('logo-service-3') ?>" alt="logo service 3"  class="small-collection-image">
+    <div class="small-collection-sub-div">
+      <img class="w-100" src="<?php the_field('logo-service-3') ?>" alt="logo service 3" >
       <p class="text-center"><?php the_field('service-3') ?></p>
     </div>
   </div>

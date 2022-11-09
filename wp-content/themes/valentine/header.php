@@ -15,6 +15,15 @@
   <?php
     wp_head()
   ?>
+
+<?php
+  $custom_logo_id = get_theme_mod( 'custom_logo' );
+  $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+  if ( has_custom_logo() ) {
+	  echo '<link rel="shortcut icon" type="image/x-icon" href="' . esc_url( $logo[0] ) . '" alt="' . get_bloginfo( 'name' ) . '">';
+  }
+?>
+
 </head>
 <body>
 
@@ -50,7 +59,7 @@
   // Hover logo :
    const navLogo = document.querySelector(".custom-navbar-logo")
 
-   navLogo.childNodes[0].innerHTML = `<img src="http://localhost:8000/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://localhost:8000/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
+   navLogo.childNodes[0].innerHTML = `<img src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/blason.png" id="nav-blason"> <img src="http://valentine.s191473.nouvelleagencemediapilote17-0343d5f7ed0a.atester.fr/wp-content/uploads/2022/10/logo-sans-blason.png" id="nav-valentine">`
 
    const navBlason = document.getElementById("nav-blason")
    const navValentine = document.getElementById("nav-valentine")
